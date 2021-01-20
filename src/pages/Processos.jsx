@@ -1,9 +1,9 @@
-import Consulta from '../components/Consulta';
+import Cadastro from '../processos/Cadastro';
 
 const Processos = () => {
   return (
     <div>
-      <Consulta />
+      <Cadastro />
     </div>
   );
 };

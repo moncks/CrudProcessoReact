@@ -1,0 +1,29 @@
+h1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  min-height: 100%;
+  text-align: center;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin-left: 2.5%;
+  text-align: center;
+}
+
+div {
+  min-height: 100%;
+}
+
+a {
+  color: #005b95;
+  font-weight: bold;
+}
