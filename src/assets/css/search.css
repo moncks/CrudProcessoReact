@@ -8,11 +8,6 @@ h1 {
   margin-bottom: 60px;
 }
 
-img {
-  width: 100px;
-  padding-top: 20px;
-}
-
 #main {
   text-align: center;
   width: 80%;
@@ -37,6 +32,7 @@ button {
   cursor: pointer;
   font-size: 18px;
 }
+
 #processos-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -45,10 +41,32 @@ button {
   margin-top: 60px;
   border: 0.1px solid #4286f4;
 }
+
+.single-processo li div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
 .single-processo {
   box-shadow: 1px 0.5px #4286f4;
   margin: 10px;
 }
 .single-processo img {
   width: 50%;
+}
+#processos-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+}
+#texto {
+  margin-left: 50px;
+  margin-top: 50%;
+}
+
+#paragrafo {
+  margin-left: 50px;
+  margin-top: 20px;
 }

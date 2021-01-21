@@ -43,7 +43,7 @@ class Search extends Component {
           <div>
             <ul>
               {this.state.processos.map((processo, index) => (
-                <div class="single-meal" key={index}>
+                <div class="single-processo" key={index}>
                   <li id="processos-container">
                     <div id="img">
                       <img
@@ -52,24 +52,21 @@ class Search extends Component {
                         style={{ marginLeft: 10, width: 100 }}
                       />
                     </div>
-                    <div id="numero" style={{ marginLeft: 50, width: 150 }}>
-                      <label>Número</label>
-                      <p>{processo.numero}</p>
+                    <div id="test">
+                      <label id="texto">Número</label>
+                      <p id="paragrafo">{processo.numero}</p>
                     </div>
-                    <div id="assunto" style={{ marginLeft: 10, width: 150 }}>
-                      <label>Assunto</label>
-                      <p>{processo.assunto}</p>
+                    <div id="test">
+                      <label id="texto">Assunto</label>
+                      <p id="paragrafo">{processo.assunto}</p>
                     </div>
-                    <div
-                      id="interessado"
-                      style={{ marginLeft: 10, width: 150 }}
-                    >
-                      <label>Interessado</label>
-                      <p>{processo.interessados}</p>
+                    <div id="test">
+                      <label id="texto">Interessado</label>
+                      <p id="paragrafo">{processo.interessados}</p>
                     </div>
-                    <div id="descricao" style={{ marginLeft: 10, width: 150 }}>
-                      <label>Descrição</label>
-                      <p>{processo.descricao}</p>
+                    <div id="test">
+                      <label id="texto">Descrição</label>
+                      <p id="paragrafo">{processo.descricao}</p>
                     </div>
                   </li>
                 </div>
