@@ -43,29 +43,25 @@ class Search extends Component {
           <div>
             <ul>
               {this.state.processos.map((processo, index) => (
-                <div class="single-processo" key={index}>
-                  <li id="processos-container">
+                <div class="lista-processos" key={index}>
+                  <li id="single-processo">
                     <div id="img">
-                      <img
-                        src={icon}
-                        alt="empty icon"
-                        style={{ marginLeft: 10, width: 100 }}
-                      />
+                      <img src={icon} alt="empty icon" style={{ width: 100 }} />
                     </div>
-                    <div id="test">
-                      <label id="texto">Número</label>
+                    <div class="item-processo">
+                      <label id="li-label">Número</label>
                       <p id="paragrafo">{processo.numero}</p>
                     </div>
-                    <div id="test">
-                      <label id="texto">Assunto</label>
+                    <div class="item-processo">
+                      <label id="li-label">Assunto</label>
                       <p id="paragrafo">{processo.assunto}</p>
                     </div>
-                    <div id="test">
-                      <label id="texto">Interessado</label>
+                    <div class="item-processo">
+                      <label id="li-label">Interessado</label>
                       <p id="paragrafo">{processo.interessados}</p>
                     </div>
-                    <div id="test">
-                      <label id="texto">Descrição</label>
+                    <div class="item-processo">
+                      <label id="li-label">Descrição</label>
                       <p id="paragrafo">{processo.descricao}</p>
                     </div>
                   </li>
