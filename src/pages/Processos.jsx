@@ -1,9 +1,9 @@
-import Cadastro from '../processos/Cadastro';
+import Search from '../components/Search';
 
 const Processos = () => {
   return (
     <div>
-      <Cadastro />
+      <Search />
     </div>
   );
 };
