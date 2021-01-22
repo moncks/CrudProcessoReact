@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../assets/css/search.css';
 import icon from '../img/iconfinder_outlined_placeholder_4280497.png';
 
-class Search extends Component {
+export class Search extends Component {
   state = {
     textoDeBusca: '',
     processos: [],
@@ -70,13 +70,8 @@ class Search extends Component {
             </ul>
           </div>
         ) : (
-          <p>
-            Você pode criar um novo processo <a>clicando aqui.</a>
-          </p>
+          <p>Nenhum processo encontrado</p>
         )}
-        <p>
-          Você pode criar um novo processo <a>clicando aqui.</a>
-        </p>
       </div>
     );
   }
