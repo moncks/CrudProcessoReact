@@ -61,7 +61,7 @@ export default class Home extends Component {
                 },
               }}
             >
-              Sign up
+              Buscar
             </Link>
           </Botao>
         </div>

@@ -13,3 +13,45 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.lista-processos li div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 0px 0.5px 0.5px 0.5px;
+}
+
+#single-processo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 5px;
+  padding: 10px;
+  grid-row-gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  text-align: justify;
+}
+
+.item-processo {
+  margin: 20px 100px 0px 0px;
+}
+
+#li-label {
+  color: #757575 54%;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+  margin-left: 10px;
+}
+
+#paragrafo {
+  color: #757575 38%;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+  height: 20px;
+  margin-top: 10px;
+}
