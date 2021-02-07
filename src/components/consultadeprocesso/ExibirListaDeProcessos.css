@@ -1,0 +1,15 @@
+#listaProcessoPage {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+  word-wrap: break-word;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.BotaoEstilo {
+  display: flex;
+  flex-wrap: wrap;
+}

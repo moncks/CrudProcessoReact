@@ -6,7 +6,7 @@ export default (props) => {
     <div>
       <p>
         Você pode criar um novo processo{' '}
-        <Link to="/CadastroDeProcesso">clicando aqui</Link>.
+        <Link to="/criarProcesso/">clicando aqui</Link>.
       </p>
     </div>
   );
