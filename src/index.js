@@ -1,6 +1,17 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-ReactDom.render(<App></App>, document.getElementById('root'));
+import CadastroDeProcesso from './components/cadastrodeprocesso/CadastroDeProcesso';
+
+ReactDOM.render(
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact={true} component={App}></Route>
+      <Route parth="/CriarProcesso" component={CadastroDeProcesso}></Route>
+    </Switch>
+  </BrowserRouter>,
+  document.getElementById('root'),
+);
