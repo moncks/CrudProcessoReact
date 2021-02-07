@@ -1,13 +1,12 @@
 import React from 'react';
+import '../css/Busca.css';
 
 export default (props) => {
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Pesquise por uma informação do processo"
-      ></input>
-      <button onClick={props.busca}>{props.children}</button>
-    </div>
+    <input
+      type="text"
+      placeholder="Pesquise por uma informação do processo"
+      {...props}
+    ></input>
   );
 };
