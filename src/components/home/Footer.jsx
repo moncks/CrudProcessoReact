@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default (props) => {
   return (
     <div>
-      <p>
+      <p {...props}>
         Você pode criar um novo processo{' '}
         <Link to="/criarProcesso/">clicando aqui</Link>.
       </p>

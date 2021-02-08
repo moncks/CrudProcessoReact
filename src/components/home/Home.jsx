@@ -65,7 +65,7 @@ export default class Home extends Component {
             </Link>
           </Botao>
         </div>
-        <Footer></Footer>
+        <Footer style={{ textAlign: 'center' }}></Footer>
       </div>
     );
   }

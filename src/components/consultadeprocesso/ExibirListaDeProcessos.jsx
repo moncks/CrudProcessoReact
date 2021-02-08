@@ -25,6 +25,7 @@ export default class ExibirListaDeProcessos extends Component {
   componentDidMount() {
     this.getProcessos();
   }
+
   render() {
     return (
       <>
@@ -74,7 +75,9 @@ export default class ExibirListaDeProcessos extends Component {
                     </div>
                     <div class="item-processo">
                       <label id="li-label">Assunto</label>
-                      <p id="paragrafo">{processo.assunto}</p>
+                      <p id="paragrafo">
+                        {processo.assunto.substring(0, 20) + '...'}
+                      </p>
                     </div>
                     <div class="item-processo">
                       <label id="li-label">Interessado</label>
@@ -82,7 +85,9 @@ export default class ExibirListaDeProcessos extends Component {
                     </div>
                     <div class="item-processo">
                       <label id="li-label">Descrição</label>
-                      <p id="paragrafo">{processo.descricao}</p>
+                      <p id="paragrafo">
+                        {processo.descricao.substring(0, 20) + '...'}
+                      </p>
                     </div>
                   </li>
                 </div>
